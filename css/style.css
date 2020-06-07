@@ -1,0 +1,74 @@
+p, h1, h2, h3, h4, h5, h6 {
+    color: black;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* slideshow */
+.mySlides {display: none;}
+
+/* full-screen images */
+body, html {
+    height: 100%;
+  }
+  
+.fs-img-1 {
+    /* The image used */
+    background-image: url("../img/bike.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .fs-img-2 {
+    /* The image used */
+    background-image: url("../img//sun-on-skin.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fs-img-4 {
+    /* The image used */
+    background-image: url("../img/beach.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fs-video {
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      overflow: hidden;
+      }
+
+    audio {
+      display: block;
+      width: 250px;
+      height: 32px;
+    }
+
+    figcaption {
+      font-size: 12px;
+    }
